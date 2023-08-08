@@ -2,7 +2,7 @@ import json
 import jsonlines
 
 data=[]
-file_name='./candidate data/olg2.json'
+file_name='./step2/eval/eval_added_conversation.json'
 save_name=file_name+'l'
 with open(file_name, "r", encoding="utf-8") as file:
         data=json.load(file)
