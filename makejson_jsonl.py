@@ -2,7 +2,7 @@ import json
 import jsonlines
 
 data=[]
-file_name='./step2/step2_hatespeech.json'
+file_name='./step3/step3_train_balanced.json'
 save_name=file_name+'l'
 with open(file_name, "r", encoding="utf-8") as file:
         data=json.load(file)
