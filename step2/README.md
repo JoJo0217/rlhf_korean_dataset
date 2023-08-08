@@ -1,4 +1,5 @@
-step2 dataset입니다.  
+step2를 위한 dataset입니다.  
+
 |데이터 종류|개수|url|
 |:---|---:|---:|
 |감성 대화|720|https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=86|

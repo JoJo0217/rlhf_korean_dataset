@@ -1,7 +1,4 @@
 step1을 위한 데이터셋 입니다.
-그러나 step1 데이터는 108000개 가량으로 github upload 용량을 초과하여
-허깅페이스에 업로드 후 링크를 다는 형식으로 진행할 예정입니다.
-
 
 ###질문 ###맥락 ###답변의 구조  
 https://huggingface.co/datasets/jojo0217/korean_rlhf_step1
