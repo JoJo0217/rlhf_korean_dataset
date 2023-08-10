@@ -1,7 +1,7 @@
 import json
 
 data=[]
-file_name='./candidate data/olg2.jsonl'
+file_name='./step3/hatespeech_sol/merged.jsonl'
 save_name=file_name.replace("jsonl","json")
 
 with open(file_name, "r", encoding="utf-8") as file:

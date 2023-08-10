@@ -1,7 +1,7 @@
 import json
 
-load_file="step3_train_f (1).json"
-save_file="step3_train_template.json"
+load_file="./step3/hatespeech_sol/merged.json"
+save_file="./step3/hatespeech_sol/merged_template.json"
 # eval.json 파일 로드
 with open(load_file, "r", encoding="utf-8") as file:
     data = json.load(file)
