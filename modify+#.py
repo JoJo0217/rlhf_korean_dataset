@@ -1,10 +1,11 @@
 import json
 
-load_file="./step3/hatespeech_sol/merged.json"
-save_file="./step3/hatespeech_sol/merged_template.json"
+load_file="./step3/mk7/merged.jsonl"
+save_file="./step3/mk7/merged_template.json"
 # eval.json 파일 로드
 with open(load_file, "r", encoding="utf-8") as file:
-    data = json.load(file)
+    #data = json.load(file)
+    data = [json.loads(line) for line in file.readlines()]
 
 # "### 질문: "과 "### 답변: "을 prompt에 붙이기
 for item in data:

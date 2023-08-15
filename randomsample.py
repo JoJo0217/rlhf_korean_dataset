@@ -7,7 +7,7 @@ result =[]
 #    for line in file:
 #        result.append(json.loads(line))
 
-with open("./step3/hatespeech_sol/merged.jsonl", "r", encoding="utf-8") as file:
+with open("./step3/mk7/merged.jsonl", "r", encoding="utf-8") as file:
         result=json.load(file)
 
 data=result
