@@ -2,7 +2,7 @@ import json
 import jsonlines
 
 data=[]
-file_name='./step1/train/train.jsonl'
+file_name='../step1/train/train.jsonl'
 save_name=file_name
 del_name='id'
 with open(file_name, "r", encoding="utf-8") as file:

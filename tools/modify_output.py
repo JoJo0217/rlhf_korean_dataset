@@ -1,14 +1,14 @@
 import json
 import jsonlines
-load_file="./step1/rawdata/openassistant_filtered.jsonl"
-save_file="./step1/rawdata/openassistant_filtered.jsonl"
+load_file="../step1/train/train.jsonl"
+save_file="../step1/train/train.jsonl"
 # eval.json 파일 로드
 with open(load_file, "r", encoding="utf-8") as file:
     #data = json.load(file)
     data = [json.loads(line) for line in file.readlines()]
 
 # "### 질문: "과 "### 답변: "을 prompt에 붙이기
-filtered_word='오픈어시스턴트'
+filtered_word='<unk>'
 result=[]
 for item in data:
     #item["prompt"] = f"### 질문: {item['prompt']} ### 답변: "
